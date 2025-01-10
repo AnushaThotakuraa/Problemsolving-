@@ -1,0 +1,116 @@
+VS CODE
+    <script>
+     /*   let a=parseInt(prompt("Enter the number:"))
+        if(a%2 == 0 && a%==3){
+            document.write("the number is divisible by 2,3 and both","<br")
+        }else{
+              document.write("the number is not divisible by ")
+        }document.write("DONE")
+
+        }                   */
+    /* let a=prompt()
+     let b=prompt()
+     let c=prompt()
+     if(a>b && a>c){
+        document.write("The 1st number is greater")
+     }else if(b>c && b>a){
+        document.write("The 2nd number is greater")
+
+     }else if(c>a && c>b){
+        document.write("The 3rd number is greater")
+     }  */
+
+/*ACCEPT THE FOLLOWING FROM THE USER AND CALCULATE THE PERCENTAGE OF CLASSES ATTENDED:
+A.TOTAL NUMBER OF WORKING DAYS
+B.TOTAL NUMBER OF DAYS ABSENTS
+AFTER CALCULATING THE PERCENTAGE SHOW THAT, IF THE PERCENTAGE IS LESS THAN 75 THEN NOT ELIGIBLE FOR EXAM */
+     
+/*let working=prompt("Enter the total number of working days:")
+let absent=prompt("Enter number of days absent:")
+let present=working-absent
+let percentage=(present/working)*100
+if(percentage<75){
+ document.write("not eligible for exam")
+}
+else{
+    document.write("your eligible for exam")
+} */
+
+
+const salary = parseFloat(prompt("Enter your salary:"));
+const yearsOfService = parseInt(prompt("Enter your years of service:"), 10);
+
+let bonusPercentage = 0;
+
+if (yearsOfService > 10) {
+  bonusPercentage = 10;
+} else if (yearsOfService >= 6 && yearsOfService <= 10) {
+  bonusPercentage = 8;
+} else if (yearsOfService < 6) {
+  bonusPercentage = 5;
+}
+
+const bonus = (bonusPercentage / 100) * salary;
+alert(`Your bonus is ${bonus.toFixed(2)} (Bonus Percentage: ${bonusPercentage}%)`);
+
+    </script>
+
+
+NOTES
+1Q.PROGRAM TO CHECK WHETHER NUMBER DIVISIBLE BY 2 AND 3 AND BOTH
+let a=parseInt(prompt("Enter the number:"))
+        if(a%2 == 0 && a%==3){
+            document.write("the number is divisible by 2,3 and both","<br")
+        }else{
+              document.write("the number is not divisible by ")
+        }document.write("DONE")
+        }  
+2Q. PROGRAM TO FIND THE LARGEST NUM OF 3 NUMBERS EXPECTED USER
+let a=prompt()
+     let b=prompt()
+     let c=prompt()
+     if(a>b && a>c){
+        document.write("The 1st number is greater")
+     }else if(b>c && b>a){
+        document.write("The 2nd number is greater")
+
+     }else if(c>a && c>b){
+        document.write("The 3rd number is greater")
+     }
+3Q: ACCEPT THE FOLLOWING FROM THE USER AND CALCULATE THE PERCENTAGE OF CLASSES ATTENDED:
+A.TOTAL NUMBER OF WORKING DAYS
+B.TOTAL NUMBER OF DAYS ABSENTS
+AFTER CALCULATING THE PERCENTAGE SHOW THAT, IF THE PERCENTAGE IS LESS THAN 75 THEN NOT ELIGIBLE FOR EXAM
+
+let working=prompt("Enter the total number of working days:")
+let absent=prompt("Enter number of days absent:")
+let present=working-absent
+let percentage=(present/working)*100
+if(percentage<75){
+ document.write("not eligible for exam")
+}
+else{
+    document.write("your eligible for exam")
+}
+
+A COMPANY DECIDED TO GIVE BONUS TO EMPLOYEES ACCORDING TO THE FOLLOWING CRITERIA:
+A.TIME PERIOD OF SERVICE       BONUS
+  -----------------------------------
+  MORE THAN 10 YEARS            10%
+  >=6 AND <=10                  8%
+  LESS THAN 6 YEARS             5%
+ASK THE USER FOR THEIR SALARY AND YEARS OF SERVICE AND PRINT THE BONUS
+
+const salary = parseFloat(prompt("Enter your salary:"));
+const yearsOfService = parseInt(prompt("Enter your years of service:"), 10);
+let bonusPercentage = 0;
+if (yearsOfService > 10) {
+  bonusPercentage = 10;
+} else if (yearsOfService >= 6 && yearsOfService <= 10) {
+  bonusPercentage = 8;
+} else if (yearsOfService < 6) {
+  bonusPercentage = 5;
+}
+const bonus = (bonusPercentage / 100) * salary;
+alert(`Your bonus is ${bonus.toFixed(2)} (Bonus Percentage: ${bonusPercentage}%)`);
+
