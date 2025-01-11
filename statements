@@ -1,0 +1,53 @@
+CODE
+  <script>
+      /* let number=prompt("Enter a number:")
+          switch(true){
+               case number>0:
+                    console.log("number greater than zero")
+                    break;
+               case number<0:
+                    console.log("number less than zero")
+                    break;
+               case number=0:
+                    console.log("number is equal to zero")
+                    break;
+               default:
+                     console.log("Invalid input")
+          } */
+
+   /*  let day=prompt("enter a day:")
+            switch (day){
+                case day:
+                    if(day=="monday"){
+                        console.log("week day")
+                        document.write("week day")
+                    }
+                    else if(day=="tuesday"){
+                        console.log("week day")
+                        document.write("week day")
+                    }
+                    else if(day=="wednesday"){
+                        console.log("week day")
+                        document.write("week day")
+                    }
+                    else if(day=="thurday"){
+                        console.log("week day")
+                        document.write("week day")
+                    }
+                   
+                case day:
+                    if(day=="friday"){
+                         console.log("weekend day")
+                         document.write("weekend day")
+                   }
+                    else if(day=="saturday"){
+                        console.log("weekend day")
+                        document.write("weekend day")
+                   }
+                    else if(day=="sunday"){
+                         console.log("weekend day")
+                         document.write("weekend day")
+            } 
+        } */
+                           
+    </script>
