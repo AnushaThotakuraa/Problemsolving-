@@ -1,0 +1,95 @@
+vs code
+<script>
+        /*for(let i=1;i<=5;i++){
+            document.write(i);
+        } */
+
+      /* for(let i=10;i<=15;i++){
+            document.write(i+"<br>");
+        } */
+
+       /* for(let i=2;i<=9;i=i+2){          
+            document.write(i+3+"<br>")
+        } */
+      /* let n=9;
+        for(let i=1;i<=10;i++){  
+            document.write(n+"x"+i+"="+n*i+"<br>");
+        } */
+
+      /*  let n="chiru"
+        for(i=0;i<=5;i++){
+            document.write(n+"<br>")
+
+        } */
+
+      /*const num=[1,2,3,4,5]
+      let sum=0
+      for(let i=0;i<num.length;i++){
+       sum=sum+num[i]
+       console.log(sum);
+      } */
+    </script>
+
+note:
+loops:used to excute the block of code several times
+Type:
+
+1.for loop
+for(initiliazation,condition,upadte-expression){
+//code
+}
+Example:1
+for(let i=1;i<=5;i++){
+            document.write(i);
+        }
+
+exmple:2
+for(let i=10;i<=15;i++){
+            document.write(i+"<br>");
+        } 
+
+example:3
+ for(let i=2;i<=9;i=i+2){          
+            document.write(i+3+"<br>")
+        }  
+
+
+ let n="chiru"
+        for(i=0;i<=5;i++){
+            document.write(n+"<br>")
+        }  
+
+table printing:
+let n=9;
+        for(let i=1;i<=10;i++){  
+            document.write(n+"x"+i+"="+n*i+"<br>");
+        }  
+
+output:
+9x1=9
+9x2=18
+9x3=27
+9x4=36
+9x5=45
+9x6=54
+9x7=63
+9x8=72
+9x9=81
+9x10=90
+
+
+Add of array  
+
+const num=[1,2,3,4,5]
+      let sum=0
+      for(let i=0;i<num.length;i++){
+       sum=sum+num[i]
+       console.log(sum);
+      }
+
+output:
+1
+3
+6
+10
+15          
