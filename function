@@ -1,0 +1,78 @@
+VS CODE
+    <script>
+/*function greet(){
+            console.log("hi anusha")
+        }
+        greet()
+        console.log("hi me")
+        greet() */
+
+      /*  function g(name){
+            console.log("hello "+name)
+        }
+        let name=prompt("enter your name:")
+        g(name) */
+
+       /* function g(a,b){
+         let c= a+b
+         console.log("sum of two numbers: "+c)
+         document.write("sum of two numbers: "+c)
+        }
+        let a=parseInt(prompt("enter the 1st number:  "))
+        let b=parseInt(prompt("enter the 1st number:  "))
+         
+        g(a,b) */
+
+        
+    </script>
+
+
+NOTE
+5.Function:
+a function is resuable block of code
+it can be call any where program
+Resuable code:using an existing code with out writing it eveer we need
+you can use the same code with diferent arguments to get the results
+
+syntax:
+key word= function
+()
+parameters=values(variables) which are declared inside the () while defining a function
+Arguments:
+values which are passes through the parameters at the time of calling the function
+
+function greet(name)
+
+example:
+function greet(){
+            console.log("hi anusha")
+        }
+        greet()
+        console.log("hi me")
+        greet()
+
+//output
+hi anusha
+hi me
+hi anusha
+
+example:function with parameters
+
+ function g(a,b){
+         let c= a+b
+         console.log("sum of two numbers: "+c)
+         document.write("sum of two numbers: "+c)
+        }
+        let a=parseInt(prompt("enter the 1st number:  "))
+        let b=parseInt(prompt("enter the 2nd number:  "))
+         
+        g(a,b)
+ 
+Anonymous function:
+a function with out name.after we create a function without name and we assign it to a variable
+Example:
+sum=funct‭ion(n1,n2){
+let r=n1+n2
+return r
+}
+console.log(sum(8,9))
