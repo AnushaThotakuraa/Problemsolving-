@@ -1,0 +1,106 @@
+vs code
+
+    <script>
+      /* function mainFunction(callback){
+            console.log("Executing main function");
+            callback();
+        }
+        function callbackFunction(){
+            console.log("callbackfunction ececuted");
+        }
+        mainFunction(callbackFunction)
+
+        */
+    
+      /*  function greet(name,callback){
+            console.log("hi"+name);
+            callback();
+            }
+            function goodbye(){
+            console.log("a very good boy");
+            }
+            greet("anu",goodbye) */
+
+
+          /*  function greet(name,callback){
+                console.log("hi"+name);
+                callback();
+                }
+                greet("anu",function(){
+                 console.log("python");
+                })
+                */
+
+                function fetchData(callback){
+                    console.log("Fetching data...")
+                    }setTimeout(function(){
+                    console.log("data fecthed...");
+                    callback()
+                    },5000);
+                    
+                function processedData(){
+                    console.log("processng the fetch data")
+                    }
+                    fetchData(processedData);
+
+    </script>
+      
+      notes:
+      callback:
+you can pass the callback function as argument to another function
+excecution:the function reciveing the the callback will excecute the callback at some point during
+ its execution(oftrn at end or after an asynchronous operation is done)
+example:
+ function mainFunction(callback){
+            console.log("Executing main function");
+            callback();
+        }
+        function callbackFunction(){
+            console.log("callbackfunction ececuted");
+        }
+        mainFunction(callbackFunction)
+
+ mainFunction takes callback as 
+callbackFunction is passed to mainFunction 
+inside the mainFunction,the callbackFunction is called with callback()
+
+example2:
+passing named function as a call back
+
+function greet(name,callback){
+console.log("hi"+name);
+callback();
+}
+function goodbye(){
+console.log("a very good boy");
+}
+greet("anu",goodbye)
+
+example:
+using anonymous function as callback
+
+ function greet(name,callback){
+                console.log("hi"+name);
+                callback();
+                }
+                greet("anu",function(){
+                 console.log("python");
+                })
+
+explanation:
+we didnt pass a named function like goodbye;
+insted of the we definrd an anonymous function directly within the function call
+
+
+eaxmple:
+asynchronus callback with setTimeout:
+code:
+function fetchData(callback){
+console.log("Fetching data...")
+}setTimeout(function(){
+console.log("data fecthed...");
+callback()}2000);
+function processedData(){
+console.log("processng the fetch data")
+}
+fetchData(processedData);
