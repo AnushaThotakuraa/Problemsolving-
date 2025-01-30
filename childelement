@@ -1,0 +1,30 @@
+Vs code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="a">
+        <h1>Guni</h1>
+        <h1>Anu</h1>
+        <h1>jesu</h1>
+    </div>
+    <div id="b">
+        <h2>bhavana</h2>
+        <h2>nithin</h2>
+        <h2>rishi</h2>
+    </div>
+    <script>
+        let n=document.createElement('h2')
+        n.textContent='jesuu'
+
+        let p=document.getElementById('b')
+        p.appendChild(n)
+
+        console.log(p.innerText)
+    </script>
+</body>
+</html>
